@@ -4,7 +4,7 @@ import About from './components/About'
 import Navigation from './components/Navigation';
 import Bonsai from './components/Bonsai';
 import Shodo from './components/Shodo';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 
 function App() {
   return (
@@ -16,7 +16,8 @@ function App() {
             <Route path ='/about' element={<About />}/>
             <Route path='/bonsai' element={<Bonsai />}/>
             <Route path ='/shodo' element={<Shodo />}/>
-        </Routes>
+            <Route path ='*' element={<Navigate to ='/' />}/>
+          </Routes>
       </main>
     </>
   );
