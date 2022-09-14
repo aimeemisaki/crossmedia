@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Navigation() {
 	return (
-		<Navbar collapseOnSelect variant='light' expand='md'>
+		<Navbar collapseOnSelect bg="dark" variant="dark" expand='lg'>
 			<Navbar.Brand as={Link} to='/'>
 				Cross Media
 			</Navbar.Brand>
