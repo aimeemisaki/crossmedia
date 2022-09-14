@@ -1,10 +1,10 @@
 import './App.css';
-import Bonsai from './components/About';
 import Home from './components/Home';
+import About from './components/About'
 import Navigation from './components/Navigation';
 import Bonsai from './components/Bonsai';
 import Shodo from './components/Shodo';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -12,9 +12,10 @@ function App() {
       <Navigation />
       <main>
           <Routes>
+            <Route path='/' element={<Home />}/>
             <Route path ='/about' element={<About />}/>
-            <Route path='/home' element={<CarouselContainer data={data} />}/>
-            <Route path='*' element={<Navigate to ='/home' />}/>
+            <Route path='/bonsai' element={<Bonsai />}/>
+            <Route path ='/shodo' element={<Shodo />}/>
         </Routes>
       </main>
     </>
