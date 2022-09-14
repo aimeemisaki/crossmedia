@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const Navigation = () => {
+function Navigation() {
 	return (
 		<Navbar collapseOnSelect variant='light' expand='md'>
 			<Navbar.Brand as={Link} to='/'>
