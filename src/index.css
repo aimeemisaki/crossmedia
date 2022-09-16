@@ -4,6 +4,21 @@
 
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+:root { 
+  --overlay: #03a9fa;
+  font-family: 'Poppins', sans-serif;
+}
+
+.showcase {
+  transition: .5s
+}
+
+.showcase.active {
+  @apply right-72
+}
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
