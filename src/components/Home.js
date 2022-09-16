@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles/Home.css';
 
 function Home() {
 	return (
@@ -8,7 +9,7 @@ function Home() {
   		</video>
 		  <header id="viewport-header">
 			<h1 id="viewport-h1">
-				CROSS MEDIA <br /> JAPAN
+				<b>CROSS MEDIA <br /> JAPAN</b>
 			</h1>
 		</header>
         </>

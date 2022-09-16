@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles/Navigation.css';
 import { Link } from 'react-router-dom';
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 
@@ -7,7 +8,7 @@ function Navigation() {
 		<div>
 			<Navbar bg="dark" variant="dark" expand="lg">
 			<Container>
-				<Navbar.Brand as={Link} to='/'>
+				<Navbar.Brand as={Link} to='/' id="nav-bar-header">
 					<img
 					alt=""
 					src="/logo.svg"
