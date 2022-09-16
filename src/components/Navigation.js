@@ -15,7 +15,7 @@ function Navigation() {
 					height="30"
 					className="d-inline-block align-top"
 					/>{' '}
-					CROSS MEDIA
+					<h2 id="nav-bar-header">CROSS MEDIA</h2>
 			</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">

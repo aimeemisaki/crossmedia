@@ -1,0 +1,27 @@
+#home-video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 10;
+    left: 0;
+  }
+  #viewport-header {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  #viewport-h1 {
+    margin: 50vh;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: white;
+    font: 'Kanit'
+  }
