@@ -6,7 +6,7 @@ import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 function Navigation() {
 	return (
 		<div>
-			<Navbar bg="dark" variant="dark" expand="lg">
+			<Navbar id="nav" variant="dark" expand="lg">
 			<Container>
 				<Navbar.Brand as={Link} to='/' id="nav-bar-header">
 					{/* <img
