@@ -1,5 +1,10 @@
 #nav-bar-header {
     font-family: 'Michroma', sans-serif;
+    font-size: 20px;
+};
 
+.nav-text {
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 

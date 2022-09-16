@@ -4,10 +4,10 @@
 
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Poppins:wght@100;200;300;400;500;600&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root { 
-  font-family: 'Michroma', sans-serif;
+  font-family: 'Poppins', 'Michroma', sans-serif;
 }
 
 body {
