@@ -7,24 +7,32 @@
     left: 0;
   }
 
-#viewport-header {
+#about-container {
     background-color: black;
     color: white;
     padding: 20px;
-    width: 70vw;
+    width: 50vw;
     height: 50vh;
     border: transparent;
     filter: drop-shadow(7px 0px 13px #000);
+    align-items: center;
 }
 
 #about-header {
     font-family: 'Michroma', sans-serif;
-    font-size: 40px;
-    padding-bottom: 20px;
+    font-size: 30px;
+    /* padding-bottom: 20px; */
+    text-align: center;
 }
 
 
 .about-text {
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.cross-media {
+    color: rgb(6, 116, 6);
+    font-weight: bold;
 }
 
