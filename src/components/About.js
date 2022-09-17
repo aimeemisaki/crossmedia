@@ -12,7 +12,7 @@ function About() {
 					<h1 id='about-header' class="pb-3 md:pb-14">
 						ABOUT US
 					</h1>
-					<h2 class="about-text">At <span class="cross-media">Cross Media</span>, we are dedicated to spreading awareness of the beauties of Japan's history to people from around the world. Our goal is to teach global visitors two of the most important foundations of ancient and present-day Japanese culture: <br/>
+					<h2 class="about-text">At <span class="cross-media">CROSS MEDIA</span>, we are dedicated to spreading awareness of the beauties of Japan's history to people from around the world. Our goal is to teach global visitors two of the most important foundations of ancient and present-day Japanese culture: <br/>
 					<i>Shodo</i> (書道) and <i>Bonsai</i> (盆栽).</h2>
 				</header>
 			</div>
