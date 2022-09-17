@@ -21,7 +21,7 @@ function Navigation() {
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="me-auto">
-						<Nav.Link as={Link} to='/' class="nav-text">HOME</Nav.Link>
+						<Nav.Link as={Link} to='/' className="nav-text">HOME</Nav.Link>
 						<Nav.Link as={Link} to='/about' class="nav-text">ABOUT</Nav.Link>
 						<NavDropdown title="SERVICES" id="basic-nav-dropdown" class="nav-text">
 							<NavDropdown.Item as={Link} to='/shodo' class="nav-text">
