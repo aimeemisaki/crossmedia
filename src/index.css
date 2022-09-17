@@ -4,7 +4,7 @@
 
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michromafamily=Raleway:wght@100&display=swap');
 
 :root { 
   font-family: 'Poppins', 'Michroma', sans-serif;
@@ -12,7 +12,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Michroma',
+  font-family: -apple-system, BlinkMacSystemFont, 'Michroma', 'Raleway'
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
