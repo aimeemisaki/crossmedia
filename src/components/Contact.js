@@ -14,9 +14,9 @@ function Contact() {
 						CONTACT US
 					</h1>
 					<h2 class="about-text leading-7">
-						〒153-0064 5-35-3 Shimomeguro, Meguro-ku, Tokyo, JAPAN<br/>
-						080-9532-8154<br/>
-						crossmedia@gmail.com 
+						〒106-0041 Azabudai, Minato-ku, Tokyo, JAPAN<br/>
+						03-5425-6854<br/>
+						 
 					</h2>
 					<h1 id='subscribe-header'class="pb-3 md:pb-14">
 						SUBSCRIBE TO OUR NEWSLETTER

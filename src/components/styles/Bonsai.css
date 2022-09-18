@@ -1,0 +1,30 @@
+.bonsai-bg {
+    background-color: #272424;
+    margin-top: -20px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal-content {
+    border-radius: 80%;
+    height: 40vh;
+    
+}
+#modal-header {
+    background-color: #2A2A2A;
+    border-color: #2A2A2A;
+}
+
+#yt-vid {
+    border-color: grey;
+    
+}
+
+#vid-container {
+    background-color: #2A2A2A;
+    
+}
+
+.btn-close {
+    background-color: grey;
+}
