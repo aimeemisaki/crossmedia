@@ -23,6 +23,7 @@ function Navigation() {
 					<Nav className="me-auto">
 						<Nav.Link as={Link} to='/' className="nav-text">HOME</Nav.Link>
 						<Nav.Link as={Link} to='/about' class="nav-text">ABOUT</Nav.Link>
+						<Nav.Link as={Link} to='/schedule' class="nav-text">SCHEDULE</Nav.Link>
 						<NavDropdown title="SERVICES" id="basic-nav-dropdown" class="nav-text">
 							<NavDropdown.Item as={Link} to='/shodo' class="nav-text">
 								SHODO
