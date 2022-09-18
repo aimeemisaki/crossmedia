@@ -1,13 +1,13 @@
-#about-video {
+#schedule-video {
     object-fit: cover;
     width: 100vw;
     height: 100vh;
     position: fixed;
     top: 10;
-    left: 0;
-  }
+    left: 0; 
+}
 
-#about-container {
+#schedule-container {
     background-color: #212321;
     opacity: 0.7;
     color: white;
@@ -18,20 +18,14 @@
     align-items: center;
 }
 
-#about-header {
+#schedule-header {
     font-family: 'Michroma', sans-serif;
     font-size: 30px;
     text-align: center;
 }
 
 
-.about-text {
+.schedule-text {
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
-
-.cross-media {
-    color: #719071;
-    font-weight: bold;
-}
-
