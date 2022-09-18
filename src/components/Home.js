@@ -9,7 +9,7 @@ function Home() {
   		</video>
 		  <header id="viewport-header">
 			<h1 id="viewport-h1">
-				<b>CROSS MEDIA <br /> JAPAN</b>
+				<b>CROSS MEDIA <br /> <span class="tk-world">TK WORLD</span></b>
 			</h1>
 		</header>
         </>
