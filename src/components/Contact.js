@@ -18,7 +18,8 @@ function Contact() {
 						03-5425-6854<br/>
 						 
 					</h2>
-					<h1 id='subscribe-header'class="pb-3 md:pb-14">
+					<h2 class="about-text">crossmedia.jp@yahoo.com</h2>
+					{/* <h1 id='subscribe-header'class="pb-3 md:pb-14">
 						SUBSCRIBE TO OUR NEWSLETTER
 					</h1>
 					<form
@@ -72,7 +73,7 @@ function Contact() {
 							SUBSCRIBE
 							</button>
 						</div>
-					</form>
+					</form> */}
 				</header>
 			</div>
 		</div>
